@@ -1,75 +1,84 @@
 /* Add a black background color to the top navigation */
+.fadein {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 .topnav {
-    background-color: #161A30;
-    overflow: hidden;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #B6BBC4;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    color: #F0ECE5;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    border-radius: 25px;
-    width: auto;
-    height: auto;
-    background-color: #31304D;
-    color: #F0ECE5;
-  }
+  background-color: #161A30;
+  overflow: hidden;
+  margin: auto;
+  padding: 20px;
+}
 
-  .textbody {
-    color: #F0ECE5;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #B6BBC4;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .profilediv {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #F0ECE5;
+}
 
-  .profilediv img.imageprofile {
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-    padding: 20px;
-  }
+/* Add a color to the active/current link */
+.topnav a.active {
+  border-radius: 25px;
+  width: auto;
+  height: auto;
+  background-color: #31304D;
+  color: #F0ECE5;
+}
 
-  .profilediv h1 {
-    margin-bottom: 0;
-  }
-  
-  .profilediv h3 {
-    margin-top: 0;
-    color: #B6BBC4;
-  }
+.textbody {
+  color: #F0ECE5;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .aboutme {
-    padding: 20px;
-    width: 70%;
-  }
+.profilediv {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
-  .aboutme h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #F0ECE5;
-  }
+.profilediv img.imageprofile {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  padding: 20px;
+}
 
-  .aboutme p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #B6BBC4;
-    font-size: 20px;
-  }
+.profilediv h1 {
+  margin-bottom: 0;
+}
+
+.profilediv h3 {
+  margin-top: 0;
+  color: #B6BBC4;
+}
+
+.aboutme {
+  padding: 20px;
+  width: 70%;
+}
+
+.aboutme h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #F0ECE5;
+}
+
+.aboutme p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #B6BBC4;
+  font-size: 20px;
+}
