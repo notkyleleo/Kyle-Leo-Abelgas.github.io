@@ -68,8 +68,23 @@
 }
 
 .aboutme {
-  padding: 20px;
+  padding-left: 50px;
+  padding-top: 15px;
   width: 70%;
+}
+
+.aboutme .rowsort {
+  display: inline-flex;
+}
+
+.aboutme .container {
+  padding: 10px 30px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-color: #31304D;
+  align-content: center;
+  width: max-content;
+  height: auto;
 }
 
 .aboutme h2 {
@@ -77,14 +92,34 @@
   color: #F0ECE5;
 }
 
+.aboutme h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #F0ECE5;
+}
+
+.aboutme span.fontchange {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #F0ECE5;
+}
+
+.aboutme h3.boxtext {
+  text-align: center;
+}
+
+.aboutme h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #B6BBC4;
+}
+
 .aboutme p {
   font-family: Arial, Helvetica, sans-serif;
   color: #B6BBC4;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .aboutme p.starter {
-  color: #F0ECE5;
+  color: #B6BBC4;
 }
 
 .linkList {
@@ -92,13 +127,23 @@
   line-height: 1.5;
 }
 
-.linkedText {
+.linkedTextSmall {
+  color: #F0ECE5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.linkedTextSmall:hover {
   color: #B6BBC4;
+}
+
+.linkedText {
+  color: #F0ECE5;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 30px;
 }
 
 .linkedText:hover {
-  color: #F0ECE5;
+  color: #B6BBC4;
 }
