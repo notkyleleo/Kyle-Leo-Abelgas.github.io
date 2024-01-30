@@ -73,17 +73,13 @@
   width: 70%;
 }
 
-.aboutme .rowsort {
-  display: inline-flex;
-}
-
 .aboutme .container {
   padding: 10px 30px;
-  margin-right: 20px;
+  margin-bottom: 20px;
   border-radius: 50px;
   background-color: #31304D;
   align-content: center;
-  width: max-content;
+  width: 300px;
   height: auto;
 }
 
@@ -116,6 +112,30 @@
   color: #B6BBC4;
   font-size: 20px;
   line-height: 1.5;
+}
+
+.aboutme label {
+  text-align: right;
+}
+
+.aboutme progress[value] {
+  float: right;
+  width: 150px;
+  height: 15px;
+  margin-top: 7px;
+  color: #F0ECE5;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 15px;
+}
+
+.aboutme progress[value]::-webkit-progress-bar {
+  background-color: #B6BBC4;
+  border-radius: 15px;
+}
+.aboutme progress[value]::-webkit-progress-value {
+  background-color: #161A30;
+  border-radius: 15px;
 }
 
 .aboutme p.starter {
